@@ -5,7 +5,7 @@ const MongoClient = mongodb.MongoClient;
 let database;
 
 async function initDb() {
-  const client = await MongoClient.connect('mongodb://127.0.0.1:27017');
+  const client = await MongoClient.connect('mongodb+srv://Kushpapy:QEpebe8tHXooQOsK@cluster0.ysfpjak.mongodb.net/?retryWrites=true&w=majority');
   database = client.db('second-api');
 }
 
